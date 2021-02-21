@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <name>computer</name>
+    <price>100</price>
+    <quantity>2</quantity>
+    <Currency>EUR</Currency>
+  </Product>
+  <Product>
+    <name>TV</name>
+    <price>80</price>
+    <quantity>8</quantity>
+    <Currency>USD</Currency>
+  </Product>
+  <Product>
+    <name>hummus</name>
+    <price>25</price>
+    <quantity>10</quantity>
+    <Currency>USD</Currency>
+  </Product>
+</ArrayOfProduct>
