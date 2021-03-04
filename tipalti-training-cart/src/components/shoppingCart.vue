@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import CartItem from './CartItem.vue';
+import CartItem from './cartItem.vue';
 import prettyTable from './prettyTable.vue';
 
 export default {

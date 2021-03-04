@@ -2,8 +2,8 @@
   <div id="app">
     <ul>
       <!-- <consider extract this to a component with slot> -->
-        <router-link to="/productsPage">products  -- </router-link>
-        <router-link to="/shoppingCart">shopping Cart  -- </router-link>
+        <router-link class='productsPageLink' to="/productsPage">products  -- </router-link>
+        <router-link class='shoppingCartLink' to="/shoppingCart">shopping Cart  -- </router-link>
     </ul>
     <router-view></router-view>
   </div>

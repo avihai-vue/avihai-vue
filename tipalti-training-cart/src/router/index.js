@@ -1,20 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-
-import shoppingCart from '../components/shoppingCart.vue';
-import productsPage from '../components/productsPage.vue';
+import routes from './routes';
 
 Vue.use(Router);
 
-export default new Router({
-  routes: [
-    {
-      path: '/productsPage',
-      name: 'productsPage',
-      component: productsPage,
-    }, {
-      path: '/shoppingCart',
-      name: 'shoppingCart',
-      component: shoppingCart,
-    }],
-});
+export default new Router({ routes });

@@ -1,9 +1,12 @@
 <template>
   <div class="productContainer">
-      <h1>product-name: {{name}}</h1>
-      <p>product-price: {{price | currencySymbol(Currency)}}</p>
-      <p>product-quantity: {{quantity}}</p>
-      <button @click="productAddedToCart()" v-if="quantity > 0">add to cart</button>
+      <h1 class='product-name'>product-name: {{name}}</h1>
+      <p class='product-price'>product-price: {{$filters.currencySymbol(price, Currency)}}</p>
+      <p class='product-quantity'>product-quantity: {{quantity}}</p>
+      <button class='product-button'
+              @click="productAddedToCart()"
+              v-if="quantity > 0">add to cart
+      </button>
   </div>
 </template>
 

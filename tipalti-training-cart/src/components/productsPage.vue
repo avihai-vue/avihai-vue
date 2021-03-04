@@ -36,9 +36,6 @@ export default {
         console.log('do not hvae any more products..');
       }
     },
-    FlushCartToTheBackend() {
-      this.$store.dispatch('FlushCartToTheBackend');
-    },
   },
 };
 </script>

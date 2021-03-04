@@ -10,8 +10,10 @@ Vue.config.productionTip = false;
 Vue.prototype.$http = axios;
 
 Vue.use(router);
-Vue.filter('currencySymbol', currencySymbolFilter);
 
+Vue.prototype.$filters = {
+  currencySymbol: currencySymbolFilter,
+};
 new Vue({
   render: (h) => h(App),
   router,

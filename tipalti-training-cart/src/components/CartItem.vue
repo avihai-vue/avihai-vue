@@ -1,9 +1,9 @@
 <template>
   <tr>
     <td>{{name}}</td>
-    <td>{{price | currencySymbol(Currency)}}</td>
+    <td>{{$filters.currencySymbol(price, Currency)}}</td>
     <td>{{quantity}}</td>
-    <td>{{(quantity * price) | currencySymbol(Currency)}}</td>
+    <td>{{$filters.currencySymbol(quantity * price, Currency)}}</td>
   </tr>
 </template>
 
